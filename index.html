@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <!-- Define a linguagem do site para português -->
+    <head>
+        <meta charset="UTF-8"> <!-- Define UTF-8 para o site, assim não buga visualizações de por exemplo o -->
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0"> <!-- Define que a width irá se adaptar conforme o tamanho do dispositivo que estiver acessando o site -->
+        <title>Conversor de Moedas</title>
+        <meta name="description" content="Conversor de Moedas"> <!-- Comentário extra para o motor de busca mostrar o site (ex: google) -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <div class="div-principal">
+                <div class="div-central">
+                    <h1>Conversor de Cotações de Moeda</h1>
+                    <section>
+                        <input id="input1" type="text">
+                        <form>
+                            <select name="tipo-moeda1" required="required" id="tipo-moeda1" title="Moeda">
+                                <option value="BRL">BRL</option>
+                                <option value="USD">USD</option>
+                                <option value="EUR">EUR</option>
+                            </select>
+                        </form>
+                    </section>
+                    <section>
+                        <input id="input2" type="text">
+                        <form>
+                            <select name="tipo-moeda2" required="required" id="tipo-moeda2" title="Moeda">
+                                <option value="BRL">BRL</option>
+                                <option value="USD">USD</option>
+                                <option value="EUR">EUR</option>
+                            </select>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer>
+            Made by Martin Schneider
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
